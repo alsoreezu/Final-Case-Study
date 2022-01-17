@@ -1,0 +1,10 @@
+[routers] 
+10.1.1.1 
+10.1.1.2 
+10.1.2.2 
+ 
+[routers:vars]
+ansible_user=cisco
+ansible_password=ciscopass
+ansible_network_os=ios
+ansible_connection=network_cli
